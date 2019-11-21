@@ -36,6 +36,14 @@ for(i in books)
     else  console.log('You still need to read ' +books[i].title + " by " + books[i].auther );
   }
 
+  <!-- for(i=0; i<books.length; i++)
+  {
+     if(books[i].alreadyRead == true){
+      console.log('You already read ' +books[i].title + " by " + books[i].auther );
+    }
+    else  console.log('You still need to read ' +books[i].title + " by " + books[i].auther );
+  } -->
+
 
 ### Lab: The Movie Database
 
