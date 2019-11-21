@@ -64,3 +64,6 @@ const mov =
 
 console.log(mov.title + " for " + mov.duration + " Hour .\n stars: " + mov.stars);
 
+//console.log(` ${mov.title} for ${mov.duration} Hour .\n stars: ${mov.stars} `);
+
+
