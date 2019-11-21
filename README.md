@@ -67,3 +67,31 @@ console.log(mov.title + " for " + mov.duration + " Hour .\n stars: " + mov.stars
 //console.log(` ${mov.title} for ${mov.duration} Hour .\n stars: ${mov.stars} `);
 
 
+
+
+
+
+
+
+////////   lab object 
+
+const paragraph = "Hello , How are you? hello again !!";
+const words = paragraph.split(" ")
+console.log(words)
+let obj = {};
+
+for ( let i = 0; i<words.length; i ++)
+{
+  loweredWord = words[i].toLowerCase()
+  if(obj[loweredWord] == undefined)
+  {
+    obj[loweredWord] = 1
+  }
+  else
+  {
+    obj[loweredWord] += 1;
+  }
+}
+console.log(obj)
+
+
